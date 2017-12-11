@@ -1,4 +1,4 @@
-var Trip  = require('../models/Trip');
+var Strategy  = require('../models/Strategy');
 
 exports.index = function(req, res) {
 	Strategy

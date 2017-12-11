@@ -12,7 +12,7 @@ var strategySchema = mongoose.Schema({
         min: [1, 'Too few characters'],
         max: 100,
         required: [true, 'Please enter a username.']
-    }
+    },
     unitPositions: {
         type: String,
         required: true
